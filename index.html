@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Simple Interest</h2>
+    
+    <span>Principal Amount:</span>
+    <input type="number" id="principal" placeholder="Principal">
+    
+    <span>Rate Of Interest:</span>
+    <input type="number" id="rate" placeholder="Rate Of Interest">
+    
+    <span>Time:</span>
+    <input type="number" id="time"placeholder="Time in years">
+    
+    <span class="result" >
+      If you deposite: <span id="principal1"></span><br>
+      At interest rate of: <span id="rate1"></span><br>
+      You will recive an amount of: <span id="plus"></span><br>
+      In next: <span id="time1"></span>  year<br>
+    </span>
+    
+    <button id="btn" onclick="si()">Submit</button>
+  </div>
+</body>
+
+</html>
